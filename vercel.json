@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "buildCommand": "next build",
   "routes": [
     {
       "src": "./index.js",
-      "dest": "/api"
+      "dest": "/"
     }
   ]
 }
