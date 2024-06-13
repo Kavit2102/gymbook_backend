@@ -1,0 +1,35 @@
+{
+  "name": "gymbook-backend",
+  "version": "1.0.0",
+  "description": "Gym portal",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kavit2102/GymBook-Backend.git"
+  },
+  "keywords": [
+    "gym"
+  ],
+  "author": "Kavit Desai",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Kavit2102/GymBook-Backend/issues"
+  },
+  "dependencies": {
+    "bcrypt": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "nodemailer": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
